@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #6200ea;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+}
+
+button {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin: 0.5rem 0;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+#graph-container {
+  margin-top: 2rem;
+  width: 100%;
+  height: 500px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+/* Style pour le conteneur du score */
+#stats-container {
+  background-color: #ffffff;
+  border: 2px solid #6200ea;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6200ea;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#stats-container p {
+  margin: 0;
+}
+
+#leaderboard {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 2px solid #03a9f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#leaderboard h2 {
+  color: #03a9f4;
+  text-align: center;
+}
+
+#leaderboard-container {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+#leaderboard-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+#leaderboard-container li {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background-color: #f4f4f9;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
